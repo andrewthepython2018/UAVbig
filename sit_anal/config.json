@@ -1,0 +1,21 @@
+{
+  "danger_weights": {
+    "knife": 2.0,
+    "scissors": 1.5,
+    "fork": 1.2,
+    "person": 0.8,
+    "bag": 0.6
+  },
+  "safety_weights": {
+    "book": -1.0,
+    "bottle": -0.6,
+    "helmet": -0.8
+  },
+  "ema_alpha": 0.2,
+  "risk_logistic": {
+    "k": 2.0,
+    "x0": 1.0
+  },
+  "detection_conf_threshold": 0.4,
+  "iou_match_threshold": 0.4
+}
